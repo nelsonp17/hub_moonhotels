@@ -1,0 +1,26 @@
+.custom-content{
+	@apply mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8;
+}
+.center-content{
+	@apply flex justify-center;
+}
+.custom-container{
+	@apply mb-0 mt-6 rounded-md border shadow-lg;
+}
+.custom-title{
+	@apply text-center text-2xl font-bold text-indigo-600 sm:text-3xl;
+}
+.custom-title-small{
+	@apply mx-auto mt-4 max-w-md text-center text-gray-500;
+}
+.custom-h3{
+	@apply text-center text-lg font-medium;
+}
+
+.button-hero{
+	@apply mt-6 px-8 py-4 rounded-full font-normal tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:from-blue-700 hover:to-blue-500;
+}
+
+.button-hero-animate{
+	@apply flex items-center justify-center w-12 h-12 rounded-full text-gray-800 animate-bounce hover:text-gray-900 transition duration-300 ease-in-out cursor-pointer;
+}
